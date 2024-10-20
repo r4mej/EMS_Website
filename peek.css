@@ -1,0 +1,124 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("pexels-thepaintedsquare-583848.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+  }
+  
+
+  .header {
+    background-color: #334257; 
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .user-menu {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .user-menu img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .user-menu-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .user-menu-content a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+  }
+  
+  .user-menu-content a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .user-menu:hover .user-menu-content {
+    display: block;
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  .content {
+    
+    border-radius: 5px;
+    
+    padding: 20px;
+  }
+  
+  .container {
+    backdrop-filter: blur(5px);
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  
+  .table {
+    margin-top: 70px;
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+  }
+  
+  .table th, .table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color:white;
+  }
+  
+  .table th {
+    background-color: #4D869C;
+    color: #ffffff;
+  }
+  
+  .table tr:hover {
+    background-color: #3572EF;
+  }
+  
+ 
+  .back-button {
+    background-color: #334257; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  
+  .back-button:hover {
+    background-color: #2a374e; 
+  }
+  
