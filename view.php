@@ -38,7 +38,7 @@
                 <?php
                 $servername = "LocalHost";
                 $username = "root";
-                $password = "1wocamalS!";
+                $password = "";
                 $database = "employeemanagementsystem";
 
                 $connection = new mysqli($servername, $username, $password, $database);
